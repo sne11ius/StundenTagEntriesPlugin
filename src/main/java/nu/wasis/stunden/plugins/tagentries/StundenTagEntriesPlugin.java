@@ -1,7 +1,5 @@
 package nu.wasis.stunden.plugins.tagentries;
 
-import org.apache.log4j.Logger;
-
 import net.xeoh.plugins.base.annotations.PluginImplementation;
 import nu.wasis.stunden.exception.InvalidConfigurationException;
 import nu.wasis.stunden.model.Day;
@@ -9,6 +7,8 @@ import nu.wasis.stunden.model.Entry;
 import nu.wasis.stunden.model.WorkPeriod;
 import nu.wasis.stunden.plugin.ProcessPlugin;
 import nu.wasis.stunden.plugins.tagentries.config.StundenTagEntriesPluginConfiguration;
+
+import org.apache.log4j.Logger;
 
 @PluginImplementation
 public class StundenTagEntriesPlugin implements ProcessPlugin {
